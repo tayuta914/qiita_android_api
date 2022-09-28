@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">qiita_android_api</string>
+<<<<<<< HEAD
     <string name="search">検索する</string>
+=======
+>>>>>>> 5fbf2050fc125ee7a231c2662de1c346da9de436
 </resources>

@@ -2,6 +2,7 @@ package com.example.qiita_android_api
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+<<<<<<< HEAD
 import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.ListView
@@ -55,5 +56,12 @@ class MainActivity : AppCompatActivity() {
                 Log.d("fetchItems", "response errorBody:" + response.errorBody())
             }
         })
+=======
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+>>>>>>> 5fbf2050fc125ee7a231c2662de1c346da9de436
     }
 }
